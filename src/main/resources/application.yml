@@ -1,0 +1,21 @@
+myconfig:
+  app-name: Learn Spring Boot
+  app-description: ${myconfig.app-name} is a Spring Boot Application
+  admin-first-name: Pratiyush
+  admin-last-name: Singh
+  adminEmail: pratiyush@gmail.com
+pageController:
+  msg: "Hello from YAML config"
+  foo: "foo"
+  bar: "bar"
+my:
+  secret: "$trange$951"
+#Profile Demo - Start
+environments:
+    development:
+        url: http://dev.springbootapp.pratiyush.com
+        name: Developer Setup
+    production:
+        url: http://springbootapp.pratiyush.com
+        name: On Production
+#Profile Demo - End
